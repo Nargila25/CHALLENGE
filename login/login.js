@@ -15,7 +15,7 @@
         // Variáveis dos campos
         const usuario = form.querySelector('#usuario');
         const senha = form.querySelector('#senha');
-
+        console.log(usuario);
         // Verificação da validade do formulário
         const isFormValid = form.checkValidity();
 
